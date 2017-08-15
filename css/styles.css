@@ -6,13 +6,13 @@ body {
 }
 
 header {
-    border-bottom: 2px solid #EEEEEE;
     height: 76px;
 }
 
 nav ul {
     display: flex;
     flex-flow: row;
+    align-items: center;
     margin: 0;
     padding: 6px;
     list-style-type: none;
@@ -20,6 +20,7 @@ nav ul {
 
 .log {
     margin-right: 100px;
+    margin-left: 19px;
 }
 
 nav a {
@@ -33,4 +34,94 @@ nav a {
 
 nav li a:hover {
     opacity: 0.7;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+#main-left {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    flex: 4 1;
+}
+
+.border-center {
+    width: 1px;
+    background-color: #f3f3f3;
+    margin: 50px 0;
+}
+
+.border-center-container {
+    flex: 1 1;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+}
+
+#main-right {
+    display: flex;
+    flex-flow: column;
+    flex: 4 1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.main-title {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+.form-area {
+    display: block;
+    background: #eef2f3;
+    border: 1px solid #eef2f3;
+    border-radius: 4px;
+    width: 90%;
+    padding: 15px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;
+    border: 0;
+    border-radius: 4px;
+    padding: 18px;
+    width: 90%;
+    cursor: pointer;
+}
+
+.btn-blue {
+    color: #fff;
+    background: #007ee5;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.nav-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 85px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
 }
