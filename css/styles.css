@@ -68,6 +68,11 @@ nav li a:hover {
     margin: 50px 0;
 }
 
+.border-center-sec {
+    width: 1px;
+    margin: 50px 0;
+}
+
 .border-center-container {
     flex: 1 1;
     align-self: stretch;
@@ -89,6 +94,7 @@ nav li a:hover {
     max-width: 1220px;
     margin: 0 auto;
     padding: 0 40px;
+    margin-bottom: 60px;
 }
 
 .main-title {
@@ -143,31 +149,27 @@ nav li a:hover {
     border-bottom: 1px solid #eee;
 }
 
-.sec-img {
+.section-list {
+    list-style-type: none;
+}
+
+.section-list li {
     display: flex;
+    justify-content: center;
     align-items: center;
-    flex-flow: column;
-    flex: 5 1;
+    margin-bottom: 40px;
 }
 
-.sec-dec {
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-    flex: 5 1;
+.text-area-left {
+    max-width: 380px;
+    margin-left: 56px;
 }
 
-.sec-dec-con {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    padding: 0 60px;
+.text-area-right {
+    max-width: 380px;
+    margin-right: 56px;
 }
 
-.sec-mar-bottom {
-    margin-bottom: 60px;
-}
-
-.sec-mar-top {
-    margin-top: 60px;
+.img-right {
+    flex-direction: row-reverse;
 }
