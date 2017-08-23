@@ -6,116 +6,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link href="css/styles.css" rel="stylesheet">
+    <script src="js/index.js"></script>
     <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
-
-    <header>
-        <nav class="nav-menu">
+    <header class="container">
+        <div id="menu" class="nav-menu">
             <ul>
-                <li class="log">
-                    <a href="#"><img src="img/icon.png" alt="icon"></a>
-                </li>
-                <li><a href="#">運営情報</a></li>
-                <li><a href="#">Tips</a></li>
+                    <li class="logo"><a href="#"><img src="img/icon.png" alt=""></a></li>
+                <li><a href="#">運営会社</a></li>
+                <li><a href="#tips">Tips</a></li>
             </ul>
-        </nav>
+        </div>
+        <!-- menu -->
     </header>
-    <main>
-        <div class="row">
-            <div class="container">
-                <div id="main-left">
-                    <h2 class="main-title">メインタイトル メインタイトル </h2>
-                    <p>でぃすくりぷしょん でぃすくりぷしょん でぃすくりぷしょん でぃすくりぷしょん でぃすくりぷしょん</p>
-                </div>
-                <div class="border-center-container">
-                    <div class="border-center"></div>
-                </div>
-                <div id="main-right">
-                    <h3 class="form-menu">無料で新規登録</h3>
-                    <form action="" method="post">
-                        <div>
-                            <input type="mail" id="mail" placeholder="メール" class="form-area" />
-                        </div>
-                        <div>
-                            <input type="password" id="password" placeholder="パスワード" class="form-area" />
-                        </div>
-                        <div>
-                            <input type="submit" value="送信する" class="btn btn-blue">
-                        </div>
-                    </form>
+    <div id="main">
+        <i class="fa fa-bars" id="show"></i>
+        <main>
+            <div class="row">
+                <div class="container">
+                    <div id="main-left">
+                        <h2 class="main-title">メインタイトル メインタイトル </h2>
+                        <p>でぃすくりぷしょん でぃすくりぷしょん でぃすくりぷしょん でぃすくりぷしょん でぃすくりぷしょん</p>
+                    </div>
+                    <div class="border-center-container">
+                        <div class="border-center"></div>
+                    </div>
+                    <div id="main-right">
+                        <h3 class="form-menu">無料で新規登録</h3>
+                        <form action="" method="post">
+                            <div>
+                                <input type="mail" id="mail" placeholder="メール" class="form-area" />
+                            </div>
+                            <div>
+                                <input type="password" id="password" placeholder="パスワード" class="form-area" />
+                            </div>
+                            <div>
+                                <input type="submit" value="送信する" class="btn btn-blue">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
-    <section class="section sec-mar-top">
-        <div class="row">
-            <div class="container">
-                <ul class="section-list">
-                    <li>
-                        <img src="img/img001.png" alt="">
-                        <div class="text-area-left">
-                            <h3>タイトル タイトル タイトル タイトル タイトル タイトル </h3>
-                            <p>てきすと てきすと てきすと てきすと てきすと てきすと てきすと てきすと </p>
-                        </div>
-                    </li>
-                    <li class="img-right">
-                        <img src="img/img002.png" alt="">
-                        <div class="text-area-right">
-                            <h3>タイトル タイトル タイトル タイトル タイトル タイトル </h3>
-                            <p>てきすと てきすと てきすと てきすと てきすと てきすと てきすと てきすと </p>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="img/img003.png" alt="">
-                        <div class="text-area-left">
-                            <h3>タイトル タイトル タイトル タイトル タイトル タイトル </h3>
-                            <p>てきすと てきすと てきすと てきすと てきすと てきすと てきすと てきすと </p>
-                        </div>
-                    </li>
-                </ul>
+        </main>
+        <section class="section sec-mar-top">
+            <div class="row">
+                <div class="container">
+                    <ul class="section-list">
+                        <li>
+                            <img src="img/img001.png" alt="">
+                            <div class="text-area-left">
+                                <h3>タイトル タイトル タイトル タイトル タイトル タイトル </h3>
+                                <p>てきすと てきすと てきすと てきすと てきすと てきすと てきすと てきすと </p>
+                            </div>
+                        </li>
+                        <li class="img-right">
+                            <img src="img/img002.png" alt="">
+                            <div class="text-area-right">
+                                <h3>タイトル タイトル タイトル タイトル タイトル タイトル </h3>
+                                <p>てきすと てきすと てきすと てきすと てきすと てきすと てきすと てきすと </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/img003.png" alt="">
+                            <div class="text-area-left">
+                                <h3>タイトル タイトル タイトル タイトル タイトル タイトル </h3>
+                                <p>てきすと てきすと てきすと てきすと てきすと てきすと てきすと てきすと </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="row">
-            <h2>Tips</h2>
-            <div class="container">
+        </section>
+        <section>
+            <div class="row">
+                <h2 id="tips">Tips</h2>
+                <div class="container">
 
-                <ul class="section-list-yoko">
-                    <li>
-                        <div class="text-area-yoko">
-                            <div class="img-yoko">
-                                <img src="img/img004.png" alt="">
+                    <ul class="section-list-yoko">
+                        <li>
+                            <div class="text-area-yoko">
+                                <div class="img-yoko">
+                                    <img src="img/img004.png" alt="">
+                                </div>
+                                <p>てきすと てきすと てきすと てきすと てきすと てきすと てきすと てきすと </p>
                             </div>
-                            <p>てきすと てきすと てきすと てきすと てきすと てきすと てきすと てきすと </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="text-area-yoko">
-                            <div class="img-yoko">
-                                <img src="img/img005.png" alt="">
+                        </li>
+                        <li>
+                            <div class="text-area-yoko">
+                                <div class="img-yoko">
+                                    <img src="img/img005.png" alt="">
+                                </div>
+                                <p>てきすと てきすと てきすと てきすと てきすと てきすと てきすと てきすと </p>
                             </div>
-                            <p>てきすと てきすと てきすと てきすと てきすと てきすと てきすと てきすと </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="text-area-yoko">
-                            <div class="img-yoko">
-                                <img src="img/img006.png" alt="">
+                        </li>
+                        <li>
+                            <div class="text-area-yoko">
+                                <div class="img-yoko">
+                                    <img src="img/img006.png" alt="">
+                                </div>
+                                <p>てきすと てきすと てきすと てきすと てきすと てきすと てきすと てきすと </p>
                             </div>
-                            <p>てきすと てきすと てきすと てきすと てきすと てきすと てきすと てきすと </p>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </section>
-    <footer>
-        <p>&copy; MASANORI FUNAKI</p>
-    </footer>
+        </section>
+        <footer>
+            <p>&copy; MASANORI FUNAKI</p>
+        </footer>
+    </div>
+    <script>
+        menu()
+    </script>
 </body>
 
 </html>
