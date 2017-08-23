@@ -285,7 +285,11 @@ footer {
   .section-list-yoko img {
     width: 100%;
   }
-  
+  .section-list {
+    display: block;
+    margin-left: -38px;
+  }
+
   .section-list li {
     display: block;
   }
@@ -303,7 +307,29 @@ footer {
     max-width: 100%;
     margin-right: 0px;
   }
+
+  .text-area-yoko {
+    margin-left: -38px;
+  }
   .border-center-container {
     display: none;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-bottom: 30px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+  .form-area {
+    width: 100%;
+  }
+
+  footer {
+    margin-top: 0;
   }
 }
